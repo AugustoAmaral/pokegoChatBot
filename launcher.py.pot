@@ -1,0 +1,322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-07-03 12:33-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: launcher.py\n"
+
+#: launcher.py:47
+msgid "/raid"
+msgstr ""
+
+#: launcher.py:64 launcher.py:230 launcher.py:276 launcher.py:546
+#: launcher.py:561
+msgid "active"
+msgstr ""
+
+#: launcher.py:83
+msgid "Meowth! The time must be in the format of *HH:MM*!"
+msgstr ""
+
+#: launcher.py:86
+#, python-format
+msgid "Meowth! The Pokémon *%s* is not currently in the raids!"
+msgstr ""
+
+#: launcher.py:89
+#, python-format
+msgid "Meowth! *%s* is not a valid Pokémon!"
+msgstr ""
+
+#: launcher.py:92
+msgid "/edit"
+msgstr ""
+
+#: launcher.py:99 launcher.py:143 launcher.py:118
+#, python-format
+msgid "Meowth! The raid of id *%s* does not exist or has already ended!"
+msgstr ""
+
+#: launcher.py:108 launcher.py:132 launcher.py:152
+#, python-format
+msgid "Meowth! You must be part of the list to use this command!"
+msgstr ""
+
+#: launcher.py:111
+msgid "/editname"
+msgstr ""
+
+#: launcher.py:135 launcher.py:137
+msgid "/cancel"
+msgstr ""
+
+#: launcher.py:135
+msgid "/end"
+msgstr ""
+
+#: launcher.py:137 launcher.py:147
+msgid "cancel"
+msgstr ""
+
+#: launcher.py:137
+msgid "end"
+msgstr ""
+
+#: launcher.py:147
+msgid "canceled"
+msgstr ""
+
+#: launcher.py:147 launcher.py:450
+msgid "ended"
+msgstr ""
+
+#: launcher.py:155
+msgid "/trainer"
+msgstr ""
+
+#: launcher.py:156
+msgid "red"
+msgstr ""
+
+#: launcher.py:157
+msgid "blue"
+msgstr ""
+
+#: launcher.py:157
+msgid "yellow"
+msgstr ""
+
+#: launcher.py:195
+#, python-format
+msgid "Meowth! Team *%s* and level *%s* set!"
+msgstr ""
+
+#: launcher.py:198
+msgid "Meowth! Input a valid team and level!"
+msgstr ""
+
+#: launcher.py:201
+msgid "/level"
+msgstr ""
+
+#: launcher.py:211
+#, python-format
+msgid "Meowth! Your level was updated to *%s*!"
+msgstr ""
+
+#: launcher.py:214
+msgid "Meowth! Input a valid level!"
+msgstr ""
+
+#: launcher.py:217
+msgid "Meowth! Set up your informations using */trainer team level*! This command is only for updating your level after your trainer's info are all set up!"
+msgstr ""
+
+#: launcher.py:220
+msgid "/quest"
+msgstr ""
+
+#: launcher.py:250 launcher.py:257 launcher.py:275
+msgid "/share"
+msgstr ""
+
+#: launcher.py:250 launcher.py:257
+msgid "/comment"
+msgstr ""
+
+#: launcher.py:254
+msgid "raid or quest"
+msgstr ""
+
+#: launcher.py:260 launcher.py:277 launcher.py:282 launcher.py:298 launcher.py:326
+msgid "r"
+msgstr ""
+
+#: launcher.py:262
+msgid "raid"
+msgstr ""
+
+#: launcher.py:263 launcher.py:279
+msgid "q"
+msgstr ""
+
+#: launcher.py:265
+msgid "quest"
+msgstr ""
+
+#: launcher.py:267
+msgid "Meowth! Invalid command!"
+msgstr ""
+
+#: launcher.py:272
+#, python-format
+msgid "Meowth! The %s of id *%s* does not exist or has already ended!"
+msgstr ""
+
+#: launcher.py:285
+#, python-format
+msgid "Meowth! The %s of id *%s* has already been posted in this group!"
+msgstr ""
+
+#: launcher.py:294
+#, python-format
+msgid "Meowth! The raid of id *%s* has already been ended or canceled!"
+msgstr ""
+
+#: launcher.py:333
+msgid "/help"
+msgstr ""
+
+#: launcher.py:343
+msgid "/setraids"
+msgstr ""
+
+#: launcher.py:354
+msgid "Meowth! Input the Pokémon numbers!"
+msgstr ""
+
+#: launcher.py:361
+#, python-format
+msgid ""
+"Meowth! Current raids set to:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: launcher.py:365
+msgid "/getraids"
+msgstr ""
+
+#: launcher.py:366
+msgid "Current raids\n"
+msgstr ""
+
+#: launcher.py:373
+msgid "/gettrainers"
+msgstr ""
+
+#: launcher.py:374
+msgid "*Trainers*\n"
+msgstr ""
+
+#: launcher.py:394
+msgid ""
+"\n"
+"\n"
+"_This message will be automatically deleted in a minute._"
+msgstr ""
+
+#: launcher.py:397
+#, python-format
+msgid ""
+"*Commands*\n"
+"/trainer - set your team and level.\n"
+"`/trainer initial letter/team name/color 30`\n"
+"/level - update your level but only works after the /trainer command has already been used.\n"
+"`/level 31`\n"
+"/raid - starts a new raid's list.\n"
+"`/raid pokémon,place,HH:MM`\n"
+"/edit - change the time of a on going raid's list.\n"
+"`/edit raid's ID HH:MM`\n"
+"/editname - change the name of a on going raid's list.\n"
+"`/editname raid's ID Pokemon_name`\n"
+"/cancel - cancel a on going raid's list.\n"
+"`/cancel raid's ID`\n"
+"/end - finish a on going raid's list.\n"
+"`/end raid's ID`\n"
+"/quest - report a found quest.\n"
+"`/quest task,place,reward`\n"
+"/share - send a raid's list or quest's report to another group so that both are automatically updated in the groups it was shared to.\n"
+"`/share q/r raid's/quest's ID`\n"
+"/comment - add informations to a raid's list or quest's report.\n"
+"`/comment q/r raid's/quest's ID comment`\n"
+"\n"
+"*Raid's list*\n"
+"To add yourself to the list, just tap the _Yes_ button.\n"
+"In case there are more people going with you tap the _+1_ for each extra trainer that is going with you.\n"
+"In case you can no longer go tap the _No_ and your name will be automatically removed.\n"
+"\n"
+"*Comments*\n"
+"Only those who confirmed that are going to the raid can comment on it.\n"
+"On quest's report, anyone can comment.\n"
+"\n"
+"*Report's duration*\n"
+"After 1 hour and 45 minutes a raid's list is set to ended (time to egg hatching + raid's duration).\n"
+"At midnight of each day the quests' reports are deleted.\n"
+"\n"
+"Any question, talk to %s %s"
+msgstr ""
+
+#: launcher.py:538
+msgid "Yes"
+msgstr ""
+
+#: launcher.py:539
+msgid "No"
+msgstr ""
+
+#: launcher.py:544
+#, python-format
+msgid ""
+"#️⃣ ID: *%s*\n"
+"🕵🏽‍♂️ Quest: *%s*\n"
+"%s Place: *%s*\n"
+"%s Reward: *%s*"
+msgstr ""
+
+#: launcher.py:548 launcher.py:583
+msgid ""
+"\n"
+"\n"
+"*Comments:*"
+msgstr ""
+
+#: launcher.py:552
+#, python-format
+msgid ""
+"\n"
+"\n"
+"*Reported by:* %s"
+msgstr ""
+
+#: launcher.py:559
+#, python-format
+msgid ""
+"#️⃣ ID: *%s*\n"
+"%s Pokémon: *%s*\n"
+"%s Place: *%s*\n"
+"%s Time: *%s*"
+msgstr ""
+
+#: launcher.py:569
+#, python-format
+msgid ""
+"\n"
+"\n"
+"*Going:* %s"
+msgstr ""
+
+#: launcher.py:587
+#, python-format
+msgid ""
+"\n"
+"\n"
+"*Created by:* %s"
+msgstr ""
+
+#: launcher.py:650
+msgid "Meowth! That's right!"
+msgstr ""
