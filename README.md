@@ -5,6 +5,12 @@ A Pokémon GO Telegram bot to manage raids and quests.
 - [Telepot](https://github.com/nickoala/telepot)
 - [Emoji](https://github.com/carpedm20/emoji/)
 
+## How to autorun
+
+1. Update autobackup.py
+2. update dockerfile
+3. run dockerfile
+
 ## Installation
 1. Install Python 3.6+
 2. Install the requirements
