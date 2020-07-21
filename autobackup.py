@@ -4,7 +4,7 @@ from datetime import datetime
 
 while True:
     my_date = datetime.now()
-    print("Actual date is " + my_date.strftime('%Y-%m-%dT%H:%M'))
+    print("Actual datetime is " + my_date.strftime('%Y-%m-%dT%H:%M'))
     os.system("echo Last update "+my_date.strftime('%Y-%m-%dT%H:%M')+" >> lastUpdate.txt")
     os.system("git add *")
     sleep(1)
